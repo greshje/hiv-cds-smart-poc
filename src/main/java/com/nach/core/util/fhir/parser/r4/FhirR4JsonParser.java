@@ -2,6 +2,8 @@ package com.nach.core.util.fhir.parser.r4;
 
 import org.hl7.fhir.instance.model.api.IBaseResource;
 
+import com.nach.core.util.json.JsonUtil;
+
 import ca.uhn.fhir.context.FhirContext;
 import ca.uhn.fhir.parser.IParser;
 
@@ -23,6 +25,13 @@ public class FhirR4JsonParser {
 		} catch (Exception exp) {
 			throw new RuntimeException(exp);
 		}
+	}
+	
+	public static String toJson(IBaseResource obj) {
+		IParser parser = ctx.newJsonParser();
+		String rtn = parser.encodeResourceToString(obj);
+		rtn = JsonUtil.prettyPrint(rtn);
+		return rtn;
 	}
 
 }
