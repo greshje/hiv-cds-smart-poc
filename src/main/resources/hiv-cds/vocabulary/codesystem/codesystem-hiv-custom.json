@@ -1,0 +1,293 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "hiv-custom",
+  "url": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "name": "hivcustom",
+  "title": "Extended Codes CodeSystem",
+  "status": "draft",
+  "experimental": false,
+  "description": "Set of codes representing all concepts used in the implementation guide",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "NACHC.A0.DE1",
+    "display": "Encounter Type",
+    "definition": "Encounter Type"
+  }, {
+    "code": "NACHC.A1.DE1",
+    "display": "HIV Diagnosis",
+    "definition": "HIV Diagnosis"
+  }, {
+    "code": "NACHC.A2.DE1",
+    "display": "HIV Test",
+    "definition": "HIV Test"
+  }, {
+    "code": "NACHC.A2.DE216",
+    "display": "HIV Test Ordered",
+    "definition": "HIV Test Ordered"
+  }, {
+    "code": "NACHC.B1.DE1",
+    "display": "Hepatitis C Diagnosis",
+    "definition": "Hepatitis C Diagnosis"
+  }, {
+    "code": "NACHC.B2.DE1",
+    "display": "Hepatitis C Test",
+    "definition": "Hepatitis C Test"
+  }, {
+    "code": "NACHC.B2.DE103",
+    "display": "Antinuclear antibodies (ANA)",
+    "definition": "Hepatitis C Test - Antinuclear antibodies (ANA)"
+  }, {
+    "code": "NACHC.B2.DE104",
+    "display": "Hepatitis C antibody",
+    "definition": "Hepatitis C Test - Hepatitis C antibody"
+  }, {
+    "code": "NACHC.B2.DE105",
+    "display": "Hepatitis C antibody; confirmatory test (eg, immunoblot)",
+    "definition": "Hepatitis C Test - Hepatitis C antibody; confirmatory test (eg, immunoblot)"
+  }, {
+    "code": "NACHC.B2.DE106",
+    "display": "Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, direct probe technique",
+    "definition": "Hepatitis C Test - Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, direct probe technique"
+  }, {
+    "code": "NACHC.B2.DE107",
+    "display": "Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, amplified probe technique, includes reverse transcription when performed",
+    "definition": "Hepatitis C Test - Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, amplified probe technique, includes reverse transcription when performed"
+  }, {
+    "code": "NACHC.B2.DE108",
+    "display": "Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, quantification, includes reverse transcription when performed",
+    "definition": "Hepatitis C Test - Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, quantification, includes reverse transcription when performed"
+  }, {
+    "code": "NACHC.B2.DE109",
+    "display": "Infectious agent genotype analysis by nucleic acid (DNA or RNA); Hepatitis C virus",
+    "definition": "Hepatitis C Test - Infectious agent genotype analysis by nucleic acid (DNA or RNA); Hepatitis C virus"
+  }, {
+    "code": "NACHC.B2.DE112",
+    "display": "Hepatitis C Procedures",
+    "definition": "Hepatitis C Procedures"
+  }, {
+    "code": "NACHC.B2.DE113",
+    "display": "RNA testing for Hepatitis C documented as performed within 6 months prior to initiation of antiviral treatment for Hepatitis C (HEP-C)",
+    "definition": "Hepatitis C Procedures - RNA testing for Hepatitis C documented as performed within 6 months prior to initiation of antiviral treatment for Hepatitis C (HEP-C)"
+  }, {
+    "code": "NACHC.B2.DE114",
+    "display": "Hepatitis C quantitative RNA testing documented as performed at 12 weeks from initiation of antiviral treatment (HEP-C)",
+    "definition": "Hepatitis C Procedures - Hepatitis C quantitative RNA testing documented as performed at 12 weeks from initiation of antiviral treatment (HEP-C)"
+  }, {
+    "code": "NACHC.B2.DE115",
+    "display": "Ribonucleic acid (RNA) testing for Hepatitis C viremia ordered or results documented (HEP C)",
+    "definition": "Hepatitis C Procedures - Ribonucleic acid (RNA) testing for Hepatitis C viremia ordered or results documented (HEP C)"
+  }, {
+    "code": "NACHC.B2.DE116",
+    "display": "Hepatitis C genotype testing documented as performed prior to initiation of antiviral treatment for Hepatitis C (HEP C)",
+    "definition": "Hepatitis C Procedures - Hepatitis C genotype testing documented as performed prior to initiation of antiviral treatment for Hepatitis C (HEP C)"
+  }, {
+    "code": "NACHC.B2.DE117",
+    "display": "Hepatitis C screening documented as performed (HIV)",
+    "definition": "Hepatitis C Procedures - Hepatitis C screening documented as performed (HIV)"
+  }, {
+    "code": "NACHC.B2.DE118",
+    "display": "Patient receiving antiviral treatment for Hepatitis C (HEP-C)",
+    "definition": "Hepatitis C Procedures - Patient receiving antiviral treatment for Hepatitis C (HEP-C)"
+  }, {
+    "code": "NACHC.B2.DE119",
+    "display": "Collection of venous blood by venipuncture",
+    "definition": "Hepatitis C Procedures - Collection of venous blood by venipuncture"
+  }, {
+    "code": "NACHC.B2.DE120",
+    "display": "Infectious disease, chronic hepatitis C virus (HCV) infection, six biochemical assays (ALT, A2-macroglobulin, apolipoprotein A-1, total bilirubin, GGT, and haptoglobin) utilizing serum, prognostic algorithm reported as scores for fibrosis and necroinflammatory activity in liver",
+    "definition": "Hepatitis C Procedures - Infectious disease, chronic hepatitis C virus (HCV) infection, six biochemical assays (ALT, A2-macroglobulin, apolipoprotein A-1, total bilirubin, GGT, and haptoglobin) utilizing serum, prognostic algorithm reported as scores for fibrosis and necroinflammatory activity in liver"
+  }, {
+    "code": "NACHC.C1.DE1",
+    "display": "Syphilis Diagnosis",
+    "definition": "Syphilis Diagnosis"
+  }, {
+    "code": "NACHC.C2.DE1",
+    "display": "Syphilis Test",
+    "definition": "Syphilis Test"
+  }, {
+    "code": "NACHC.D1.DE1",
+    "display": "Gonorrhea Diagnosis",
+    "definition": "Gonorrhea Diagnosis"
+  }, {
+    "code": "NACHC.D2.DE1",
+    "display": "Gonorrhea Test",
+    "definition": "Gonorrhea Test"
+  }, {
+    "code": "NACHC.E1.DE1",
+    "display": "Chlamydia Diagnosis",
+    "definition": "Chlamydia Diagnosis"
+  }, {
+    "code": "NACHC.E2.DE1",
+    "display": "Chlamydia Test",
+    "definition": "Chlamydia Test"
+  }, {
+    "code": "NACHC.F1.DE1",
+    "display": "Drug Rehabilitation",
+    "definition": "Drug Rehabilitation"
+  }, {
+    "code": "NACHC.F1.DE12",
+    "display": "Injection Findings",
+    "definition": "Injection Findings"
+  }, {
+    "code": "NACHC.F1.DE15",
+    "display": "Injection Drug Use Diagnosis",
+    "definition": "Injection Drug Use Diagnosis"
+  }, {
+    "code": "NACHC.F1.DE200",
+    "display": "Injection Drug Use",
+    "definition": "Injection Drug Use"
+  }, {
+    "code": "NACHC.F2.DE1",
+    "display": "Pregnancy Encounters",
+    "definition": "Pregnancy Encounters"
+  }, {
+    "code": "NACHC.F2.DE38",
+    "display": "Third Trimester Encounters",
+    "definition": "Third Trimester Encounters"
+  }, {
+    "code": "NACHC.F2.DE42",
+    "display": "Pregnancy Supervision",
+    "definition": "Pregnancy Supervision"
+  }, {
+    "code": "NACHC.F2.DE108",
+    "display": "Maternal Care",
+    "definition": "Maternal Care"
+  }, {
+    "code": "NACHC.F2.DE672",
+    "display": "Pregnancy Procedures",
+    "definition": "Pregnancy Procedures"
+  }, {
+    "code": "NACHC.F2.DE904",
+    "display": "Pregnancy Observations",
+    "definition": "Pregnancy Observations"
+  }, {
+    "code": "NACHC.F2.DE1131",
+    "display": "Pregnancy Conditions",
+    "definition": "Pregnancy Conditions"
+  }, {
+    "code": "NACHC.G1.DE1",
+    "display": "Post Exposure Prophylaxis",
+    "definition": "Post Exposure Prophylaxis"
+  }, {
+    "code": "NACHC.G1.DE5",
+    "display": "PEP Medication Prescriptions",
+    "definition": "PEP Medication Prescriptions"
+  }, {
+    "code": "NACHC.G1.DE143",
+    "display": "PEP Dispensed Medications",
+    "definition": "PEP Dispensed Medications"
+  }, {
+    "code": "NACHC.G2.DE1",
+    "display": "Prep Medication Prescriptions",
+    "definition": "Prep Medication Prescriptions"
+  }, {
+    "code": "NACHC.G2.DE26",
+    "display": "Prep Dispensed Medications",
+    "definition": "Prep Dispensed Medications"
+  }, {
+    "code": "NACHC.H1.DE1",
+    "display": "Previous HIV Screening",
+    "definition": "Previous HIV Screening"
+  }, {
+    "code": "NACHC.H1.DE2",
+    "display": "Previous HIV Diagnosis",
+    "definition": "Previous HIV Diagnosis"
+  }, {
+    "code": "NACHC.H1.DE3",
+    "display": "Patient Currently Pregnant",
+    "definition": "Patient Currently Pregnant"
+  }, {
+    "code": "NACHC.H1.DE4",
+    "display": "Patient Diagnosed with HCV",
+    "definition": "Patient Diagnosed with HCV"
+  }, {
+    "code": "NACHC.H1.DE5",
+    "display": "Patient Diagnosed with Syphilis",
+    "definition": "Patient Diagnosed with Syphilis"
+  }, {
+    "code": "NACHC.H1.DE6",
+    "display": "Patient Diagnosed with Gonorrhea",
+    "definition": "Patient Diagnosed with Gonorrhea"
+  }, {
+    "code": "NACHC.H1.DE7",
+    "display": "Patient Diagnosed with Chlamydia",
+    "definition": "Patient Diagnosed with Chlamydia"
+  }, {
+    "code": "NACHC.H1.DE8",
+    "display": "Patient has used Injection Drugs",
+    "definition": "Patient has used Injection Drugs"
+  }, {
+    "code": "NACHC.H1.DE9",
+    "display": "Seeking STD Treatment",
+    "definition": "Seeking STD Treatment"
+  }, {
+    "code": "NACHC.H1.DE10",
+    "display": "Previous experience with PREP",
+    "definition": "Previous experience with PREP"
+  }, {
+    "code": "NACHC.H1.DE11",
+    "display": "Sexual Activity - Past Year",
+    "definition": "Sexual Activity - Past Year"
+  }, {
+    "code": "NACHC.H1.DE12",
+    "display": "Sexual Activity - History",
+    "definition": "Sexual Activity - History"
+  }, {
+    "code": "NACHC.H1.DE13",
+    "display": "Sexual Activity - Men",
+    "definition": "Sexual Activity - Men"
+  }, {
+    "code": "NACHC.H1.DE14",
+    "display": "Sexual Activity - Women",
+    "definition": "Sexual Activity - Women"
+  }, {
+    "code": "NACHC.H1.DE15",
+    "display": "Sexual Activity - Number of Partners",
+    "definition": "Sexual Activity - Number of Partners"
+  }, {
+    "code": "NACHC.H1.DE16",
+    "display": "Sexual Activity - New Partner Past 3 Months",
+    "definition": "Sexual Activity - New Partner Past 3 Months"
+  }, {
+    "code": "NACHC.H1.DE17",
+    "display": "Sexual Activity - Partners History",
+    "definition": "Sexual Activity - Partners History"
+  }, {
+    "code": "NACHC.H1.DE18",
+    "display": "Sexual Activity - Partners Number of Partners",
+    "definition": "Sexual Activity - Partners Number of Partners"
+  }, {
+    "code": "NACHC.H1.DE19",
+    "display": "Sexual Activity - Partners HIV History",
+    "definition": "Sexual Activity - Partners HIV History"
+  }, {
+    "code": "NACHC.H1.DE20",
+    "display": "Sexual Activity - Drug or Alcohol Use",
+    "definition": "Sexual Activity - Drug or Alcohol Use"
+  }, {
+    "code": "NACHC.H1.DE21",
+    "display": "Sexual Activity - Exchanged for Sex",
+    "definition": "Sexual Activity - Exchanged for Sex"
+  }, {
+    "code": "NACHC.H1.DE22",
+    "display": "Sexual Activity - Coercion",
+    "definition": "Sexual Activity - Coercion"
+  }, {
+    "code": "NACHC.H1.DE23",
+    "display": "Sexual Activity - Kind of Sex - Anal",
+    "definition": "Sexual Activity - Kind of Sex - Anal"
+  }, {
+    "code": "NACHC.H1.DE24",
+    "display": "Sexual Activity - Male - Kind of Sex - Receptive Anal",
+    "definition": "Sexual Activity - Male - Kind of Sex - Receptive Anal"
+  }, {
+    "code": "NACHC.H1.DE25",
+    "display": "Sexual Activity - Male - Kind of Sex - Insertive Anal",
+    "definition": "Sexual Activity - Male - Kind of Sex - Insertive Anal"
+  }, {
+    "code": "NACHC.H1.DE26",
+    "display": "Sexual Activity - Kind of Sex - Vaginal",
+    "definition": "Sexual Activity - Kind of Sex - Vaginal"
+  } ]
+}

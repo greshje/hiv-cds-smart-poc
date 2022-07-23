@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-e1-de27",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-e1-de27.json",
+  "name": "ChlamydiaInfectionsandVenerealDiseasesCodes",
+  "title": "Chlamydia Infections and Venereal Diseases Codes",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Chlamydia Infections and Venereal Diseases element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://snomed.info/sct",
+      "concept": [ {
+        "code": "420910002",
+        "display": "Chlamydia trachomatis infection of anus and rectum (disorder)"
+      }, {
+        "code": "426165006",
+        "display": "Acute genitourinary chlamydia infection (disorder)"
+      }, {
+        "code": "426247003",
+        "display": "Acute genitourinary Chlamydia trachomatis infection (disorder)"
+      }, {
+        "code": "428015005",
+        "display": "Chlamydia trachomatis infection of genital structure (disorder)"
+      } ]
+    } ]
+  }
+}

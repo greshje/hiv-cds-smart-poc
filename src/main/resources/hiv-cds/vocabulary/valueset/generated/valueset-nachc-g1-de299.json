@@ -1,0 +1,458 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-g1-de299",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g1-de299.json",
+  "name": "AlternativenPEPSuppliedCodes",
+  "title": "Alternative nPEP Supplied Codes",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Alternative nPEP Supplied element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "concept": [ {
+        "code": "0093-5528",
+        "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE"
+      }, {
+        "code": "42385-922",
+        "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE"
+      }, {
+        "code": "51407-173",
+        "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE"
+      }, {
+        "code": "69238-1138",
+        "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE"
+      }, {
+        "code": "70518-0946",
+        "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE"
+      }, {
+        "code": "70710-1052",
+        "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE"
+      }, {
+        "code": "70771-1593",
+        "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE"
+      }, {
+        "code": "0904-6875",
+        "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE (Atazanavir Sulfate)"
+      }, {
+        "code": "16714-862",
+        "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE (Atazanavir Sulfate)"
+      }, {
+        "code": "60687-399",
+        "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE (Atazanavir Sulfate)"
+      }, {
+        "code": "65862-713",
+        "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE (Atazanavir Sulfate)"
+      }, {
+        "code": "70518-1365",
+        "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE (Atazanavir Sulfate)"
+      }, {
+        "code": "59762-0410",
+        "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED"
+      }, {
+        "code": "67296-1236",
+        "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED"
+      }, {
+        "code": "69097-446",
+        "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED"
+      }, {
+        "code": "70518-2832",
+        "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED"
+      }, {
+        "code": "0003-3622",
+        "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED (REYATAZ)"
+      }, {
+        "code": "50090-1007",
+        "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED (REYATAZ)"
+      }, {
+        "code": "54569-5864",
+        "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED (REYATAZ)"
+      }, {
+        "code": "54868-5838",
+        "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED (REYATAZ)"
+      }, {
+        "code": "70518-0469",
+        "display": "ATAZANAVIR SULFATE 300mg/1 ORAL CAPSULE, GELATIN COATED (REYATAZ)"
+      }, {
+        "code": "50090-1327",
+        "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)"
+      }, {
+        "code": "52125-613",
+        "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)"
+      }, {
+        "code": "59676-566",
+        "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)"
+      }, {
+        "code": "69189-0566",
+        "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)"
+      }, {
+        "code": "70518-1483",
+        "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)"
+      }, {
+        "code": "49702-246",
+        "display": "DOLUTEGRAVIR SODIUM 50mg/1 LAMIVUDINE 300mg/1 ORAL TABLET, FILM COATED (Dovato)"
+      }, {
+        "code": "49702-228",
+        "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)"
+      }, {
+        "code": "50090-1355",
+        "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)"
+      }, {
+        "code": "53808-1130",
+        "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)"
+      }, {
+        "code": "61786-771",
+        "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)"
+      }, {
+        "code": "67296-1818",
+        "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)"
+      }, {
+        "code": "70518-1487",
+        "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)"
+      }, {
+        "code": "33342-003",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "55700-411",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "57297-284",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "61919-061",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "64380-707",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "68071-3311",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "68180-284",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "68788-6394",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "71335-0141",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "11819-359",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, COATED (Combivir)"
+      }, {
+        "code": "0093-5385",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "0378-5180",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "21695-996",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "31722-506",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "31722-739",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "42291-363",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "43063-346",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "43063-900",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "50090-1419",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "50090-2018",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "50090-3920",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "50268-456",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "50436-0597",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "54741-102",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "55700-096",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "60760-385",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "63629-4872",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "65862-036",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "65862-597",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "68071-4450",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "68084-416",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "68788-7298",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "69097-315",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "70518-0697",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "71335-0639",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "72865-144",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "76282-115",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "76519-1005",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "0173-0595",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)"
+      }, {
+        "code": "16590-061",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (Combivir)"
+      }, {
+        "code": "21695-846",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)"
+      }, {
+        "code": "49349-683",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)"
+      }, {
+        "code": "49702-202",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)"
+      }, {
+        "code": "50090-0610",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)"
+      }, {
+        "code": "52959-546",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)"
+      }, {
+        "code": "53808-0895",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)"
+      }, {
+        "code": "54569-4524",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)"
+      }, {
+        "code": "55289-389",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)"
+      }, {
+        "code": "63379-025",
+        "display": "LAMIVUDINE 150mg/1 ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (COMBIVIR)"
+      }, {
+        "code": "61919-706",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "67296-1235",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "0006-0227",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "49349-430",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "50090-1085",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "53808-0650",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "54569-6034",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "54868-0117",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "61786-843",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "66336-214",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "68071-2113",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "69189-0227",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "70518-1621",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "76519-1130",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "0074-6633",
+        "display": "RITONAVIR 100mg/1 ORAL CAPSULE (Norvir)"
+      }, {
+        "code": "0074-3399",
+        "display": "RITONAVIR 100mg/1 ORAL POWDER (Norvir)"
+      }, {
+        "code": "31722-597",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET"
+      }, {
+        "code": "65162-061",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET"
+      }, {
+        "code": "70518-1519",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET"
+      }, {
+        "code": "0054-0407",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "60687-364",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "60687-420",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "65862-687",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "67296-1234",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "68382-696",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "70518-1086",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "70518-2007",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "0074-3333",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)"
+      }, {
+        "code": "50090-1162",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)"
+      }, {
+        "code": "53808-1119",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)"
+      }, {
+        "code": "54569-6170",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)"
+      }, {
+        "code": "61786-386",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)"
+      }, {
+        "code": "69189-3335",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)"
+      }, {
+        "code": "42799-403",
+        "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE"
+      }, {
+        "code": "52343-044",
+        "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE"
+      }, {
+        "code": "53104-0100",
+        "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE"
+      }, {
+        "code": "64376-128",
+        "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE"
+      }, {
+        "code": "65862-107",
+        "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE"
+      }, {
+        "code": "68084-461",
+        "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE"
+      }, {
+        "code": "0173-0108",
+        "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE (RETROVIR)"
+      }, {
+        "code": "49702-211",
+        "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE (RETROVIR)"
+      }, {
+        "code": "54868-1974",
+        "display": "ZIDOVUDINE 100mg/1 ORAL CAPSULE (RETROVIR)"
+      }, {
+        "code": "0054-0052",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "31722-509",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "49349-838",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "61786-984",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "69189-0509",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "70518-1656",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "0378-6106",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "0527-1905",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "21695-369",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "48792-7809",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "49349-867",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "52343-045",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "53104-0101",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "53808-0812",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "53808-0878",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "54569-6171",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "57237-241",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "61786-305",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "63629-4144",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "65862-024",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "68084-462",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "76365-0300",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "49702-214",
+        "display": "ZIDOVUDINE 300mg/1 ORAL TABLET, FILM COATED (RETROVIR)"
+      } ]
+    } ]
+  }
+}

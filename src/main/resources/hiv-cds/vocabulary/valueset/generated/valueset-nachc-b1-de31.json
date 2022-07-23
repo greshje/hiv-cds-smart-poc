@@ -1,0 +1,23 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-b1-de31",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b1-de31.json",
+  "name": "ChronicInfectionofliverduetoHepatitisCvirusCodes",
+  "title": "Chronic Infection of liver due to Hepatitis C virus Codes",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Chronic Infection of liver due to Hepatitis C virus element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://snomed.info/sct",
+      "concept": [ {
+        "code": "128302006",
+        "display": "Chronic hepatitis C (disorder)"
+      }, {
+        "code": "435101000124104",
+        "display": "Chronic viral hepatitis C with hepatic coma (disorder)"
+      } ]
+    } ]
+  }
+}

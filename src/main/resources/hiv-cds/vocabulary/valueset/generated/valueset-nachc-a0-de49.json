@@ -1,0 +1,26 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-a0-de49",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-a0-de49.json",
+  "name": "SexualOrientationCodes",
+  "title": "Sexual Orientation Codes",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Sexual Orientation element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://snomed.info/sct",
+      "concept": [ {
+        "code": "38628009",
+        "display": "Lesbian, gay or homosexual"
+      }, {
+        "code": "20430005",
+        "display": "Straight or heterosexual"
+      }, {
+        "code": "42035005",
+        "display": "Bisexual"
+      } ]
+    } ]
+  }
+}

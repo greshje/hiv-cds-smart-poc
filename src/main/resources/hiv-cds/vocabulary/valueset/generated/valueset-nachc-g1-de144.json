@@ -1,0 +1,482 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-g1-de144",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g1-de144.json",
+  "name": "PreferrednPEPSuppliedCodes",
+  "title": "Preferred nPEP Supplied Codes",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Preferred nPEP Supplied element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "concept": [ {
+        "code": "50090-1327",
+        "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)"
+      }, {
+        "code": "52125-613",
+        "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)"
+      }, {
+        "code": "59676-566",
+        "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)"
+      }, {
+        "code": "69189-0566",
+        "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)"
+      }, {
+        "code": "70518-1483",
+        "display": "DARUNAVIR ETHANOLATE 800mg/1 ORAL TABLET, FILM COATED (PREZISTA)"
+      }, {
+        "code": "49702-228",
+        "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)"
+      }, {
+        "code": "50090-1355",
+        "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)"
+      }, {
+        "code": "53808-1130",
+        "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)"
+      }, {
+        "code": "61786-771",
+        "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)"
+      }, {
+        "code": "67296-1818",
+        "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)"
+      }, {
+        "code": "70518-1487",
+        "display": "DOLUTEGRAVIR SODIUM 50mg/1 ORAL TABLET, FILM COATED (Tivicay)"
+      }, {
+        "code": "0093-5234",
+        "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "65862-497",
+        "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "69097-210",
+        "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "70518-2905",
+        "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "76282-678",
+        "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "15584-0101",
+        "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)"
+      }, {
+        "code": "35356-064",
+        "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)"
+      }, {
+        "code": "50090-0980",
+        "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)"
+      }, {
+        "code": "53808-0208",
+        "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)"
+      }, {
+        "code": "54569-5805",
+        "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)"
+      }, {
+        "code": "54868-5643",
+        "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)"
+      }, {
+        "code": "69189-0118",
+        "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)"
+      }, {
+        "code": "70518-0341",
+        "display": "EFAVIRENZ 600mg/1 EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Atripla)"
+      }, {
+        "code": "42543-719",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "51407-112",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "64380-719",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "0093-7607",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "0093-7704",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "0378-1930",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "33342-106",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "42291-439",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "42385-913",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "42385-953",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "60219-2095",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "60505-4202",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "65862-354",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "67296-1237",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "67296-1433",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "68180-287",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "69097-209",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "69238-1527",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "69238-2095",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "70518-3077",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "70710-1367",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "70771-1594",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "76282-677",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "35356-070",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "50090-0870",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "52959-969",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "53808-0805",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "54569-5588",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "54868-5141",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "55154-4425",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (TRUVADA)"
+      }, {
+        "code": "58118-0100",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "61786-596",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "61919-669",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (TRUVADA)"
+      }, {
+        "code": "61958-0701",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "63629-7581",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "68071-2112",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "69189-0701",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "70518-0097",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "0004-0380",
+        "display": "Enfuvirtide KIT (FUZEON)"
+      }, {
+        "code": "0004-0381",
+        "display": "Enfuvirtide KIT (FUZEON)"
+      }, {
+        "code": "63304-583",
+        "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, COATED"
+      }, {
+        "code": "0378-3520",
+        "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "49349-811",
+        "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)"
+      }, {
+        "code": "49702-207",
+        "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)"
+      }, {
+        "code": "53808-0281",
+        "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)"
+      }, {
+        "code": "53808-1010",
+        "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)"
+      }, {
+        "code": "63379-030",
+        "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)"
+      }, {
+        "code": "69189-0210",
+        "display": "FOSAMPRENAVIR CALCIUM 700mg/1 ORAL TABLET, FILM COATED (LEXIVA)"
+      }, {
+        "code": "0069-0807",
+        "display": "MARAVIROC 150mg/1 ORAL TABLET, FILM COATED (SELZENTRY)"
+      }, {
+        "code": "49702-215",
+        "display": "MARAVIROC 150mg/1 ORAL TABLET, FILM COATED (SELZENTRY)"
+      }, {
+        "code": "49702-223",
+        "display": "MARAVIROC 150mg/1 ORAL TABLET, FILM COATED (SELZENTRY)"
+      }, {
+        "code": "52125-011",
+        "display": "MARAVIROC 150mg/1 ORAL TABLET, FILM COATED (SELZENTRY)"
+      }, {
+        "code": "0069-0808",
+        "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)"
+      }, {
+        "code": "49702-216",
+        "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)"
+      }, {
+        "code": "49702-224",
+        "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)"
+      }, {
+        "code": "50090-1486",
+        "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)"
+      }, {
+        "code": "54569-6214",
+        "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)"
+      }, {
+        "code": "54868-5809",
+        "display": "MARAVIROC 300mg/1 ORAL TABLET, FILM COATED (SELZENTRY)"
+      }, {
+        "code": "49702-260",
+        "display": "maraviroc KIT (SELZENTRY)"
+      }, {
+        "code": "61919-706",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "67296-1235",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "0006-0227",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "49349-430",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "50090-1085",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "53808-0650",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "54569-6034",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "54868-0117",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "61786-843",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "66336-214",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "68071-2113",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "69189-0227",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "70518-1621",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "76519-1130",
+        "display": "RALTEGRAVIR POTASSIUM 400mg/1 ORAL TABLET, FILM COATED (ISENTRESS)"
+      }, {
+        "code": "0074-6633",
+        "display": "RITONAVIR 100mg/1 ORAL CAPSULE (Norvir)"
+      }, {
+        "code": "0074-3399",
+        "display": "RITONAVIR 100mg/1 ORAL POWDER (Norvir)"
+      }, {
+        "code": "31722-597",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET"
+      }, {
+        "code": "65162-061",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET"
+      }, {
+        "code": "70518-1519",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET"
+      }, {
+        "code": "0054-0407",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "60687-364",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "60687-420",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "65862-687",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "67296-1234",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "68382-696",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "70518-1086",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "70518-2007",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "0074-3333",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)"
+      }, {
+        "code": "50090-1162",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)"
+      }, {
+        "code": "53808-1119",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)"
+      }, {
+        "code": "54569-6170",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)"
+      }, {
+        "code": "61786-386",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)"
+      }, {
+        "code": "69189-3335",
+        "display": "RITONAVIR 100mg/1 ORAL TABLET, FILM COATED (Norvir)"
+      }, {
+        "code": "0004-0245",
+        "display": "SAQUINAVIR MESYLATE 200mg/1 ORAL CAPSULE (Invirase)"
+      }, {
+        "code": "49349-624",
+        "display": "SAQUINAVIR MESYLATE 200mg/1 ORAL CAPSULE (Invirase)"
+      }, {
+        "code": "0004-0244",
+        "display": "SAQUINAVIR MESYLATE 500mg/1 ORAL TABLET, FILM COATED (Invirase)"
+      }, {
+        "code": "53808-0674",
+        "display": "SAQUINAVIR MESYLATE 500mg/1 ORAL TABLET, FILM COATED (Invirase)"
+      }, {
+        "code": "0378-5040",
+        "display": "STAVUDINE 15mg/1 ORAL CAPSULE"
+      }, {
+        "code": "31722-515",
+        "display": "STAVUDINE 15mg/1 ORAL CAPSULE"
+      }, {
+        "code": "57237-234",
+        "display": "STAVUDINE 15mg/1 ORAL CAPSULE"
+      }, {
+        "code": "64980-354",
+        "display": "STAVUDINE 15mg/1 ORAL CAPSULE"
+      }, {
+        "code": "65862-111",
+        "display": "STAVUDINE 15mg/1 ORAL CAPSULE"
+      }, {
+        "code": "0003-1964",
+        "display": "STAVUDINE 15mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)"
+      }, {
+        "code": "0378-5041",
+        "display": "STAVUDINE 20mg/1 ORAL CAPSULE"
+      }, {
+        "code": "31722-516",
+        "display": "STAVUDINE 20mg/1 ORAL CAPSULE"
+      }, {
+        "code": "53808-0852",
+        "display": "STAVUDINE 20mg/1 ORAL CAPSULE"
+      }, {
+        "code": "57237-235",
+        "display": "STAVUDINE 20mg/1 ORAL CAPSULE"
+      }, {
+        "code": "64980-355",
+        "display": "STAVUDINE 20mg/1 ORAL CAPSULE"
+      }, {
+        "code": "65862-112",
+        "display": "STAVUDINE 20mg/1 ORAL CAPSULE"
+      }, {
+        "code": "0003-1965",
+        "display": "STAVUDINE 20mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)"
+      }, {
+        "code": "53808-0656",
+        "display": "STAVUDINE 20mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)"
+      }, {
+        "code": "0378-5042",
+        "display": "STAVUDINE 30mg/1 ORAL CAPSULE"
+      }, {
+        "code": "31722-517",
+        "display": "STAVUDINE 30mg/1 ORAL CAPSULE"
+      }, {
+        "code": "57237-236",
+        "display": "STAVUDINE 30mg/1 ORAL CAPSULE"
+      }, {
+        "code": "64980-356",
+        "display": "STAVUDINE 30mg/1 ORAL CAPSULE"
+      }, {
+        "code": "65862-046",
+        "display": "STAVUDINE 30mg/1 ORAL CAPSULE"
+      }, {
+        "code": "0003-1966",
+        "display": "STAVUDINE 30mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)"
+      }, {
+        "code": "53808-0657",
+        "display": "STAVUDINE 30mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)"
+      }, {
+        "code": "0179-0028",
+        "display": "STAVUDINE 40mg/1 ORAL CAPSULE"
+      }, {
+        "code": "0378-5043",
+        "display": "STAVUDINE 40mg/1 ORAL CAPSULE"
+      }, {
+        "code": "31722-518",
+        "display": "STAVUDINE 40mg/1 ORAL CAPSULE"
+      }, {
+        "code": "49349-066",
+        "display": "STAVUDINE 40mg/1 ORAL CAPSULE"
+      }, {
+        "code": "53808-0594",
+        "display": "STAVUDINE 40mg/1 ORAL CAPSULE"
+      }, {
+        "code": "53808-0595",
+        "display": "STAVUDINE 40mg/1 ORAL CAPSULE"
+      }, {
+        "code": "57237-237",
+        "display": "STAVUDINE 40mg/1 ORAL CAPSULE"
+      }, {
+        "code": "64980-357",
+        "display": "STAVUDINE 40mg/1 ORAL CAPSULE"
+      }, {
+        "code": "65862-047",
+        "display": "STAVUDINE 40mg/1 ORAL CAPSULE"
+      }, {
+        "code": "0003-1967",
+        "display": "STAVUDINE 40mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)"
+      }, {
+        "code": "53808-0795",
+        "display": "STAVUDINE 40mg/1 ORAL CAPSULE, GELATIN COATED (ZERIT)"
+      }, {
+        "code": "55154-0082",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET (TRUVADA)"
+      }, {
+        "code": "72189-156",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "72189-227",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET, FILM COATED"
+      } ]
+    } ]
+  }
+}

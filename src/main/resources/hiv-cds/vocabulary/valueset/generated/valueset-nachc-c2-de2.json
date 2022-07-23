@@ -1,0 +1,32 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-c2-de2",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-c2-de2.json",
+  "name": "SyphilisTestsforTreponemapallidumNucleicAcidCodes",
+  "title": "Syphilis (Tests for Treponema pallidum Nucleic Acid) Codes",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Syphilis (Tests for Treponema pallidum Nucleic Acid) element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://loinc.org",
+      "concept": [ {
+        "code": "53605-2",
+        "display": "Treponema pallidum DNA [Presence] in Blood by NAA with probe detection"
+      }, {
+        "code": "49799-0",
+        "display": "Treponema pallidum DNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
+      }, {
+        "code": "91846-6",
+        "display": "Treponema pallidum DNA [Presence] in Genital specimen by NAA with probe detection"
+      }, {
+        "code": "41163-7",
+        "display": "Treponema pallidum DNA [Presence] in Unspecified specimen by NAA with probe detection"
+      }, {
+        "code": "76766-5",
+        "display": "Treponema pallidum polA gene [Presence] in Genital specimen by NAA with probe detection"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-g1-de2",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g1-de2.json",
+  "name": "PostExposureProphylaxisCodes",
+  "title": "Post Exposure Prophylaxis Codes",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Post Exposure Prophylaxis element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://snomed.info/sct",
+      "concept": [ {
+        "code": "409516001",
+        "display": "Post-exposure prophylaxis"
+      }, {
+        "code": "736459001",
+        "display": "Administration of prophylactic agent after sexual exposure (procedure)"
+      }, {
+        "code": "473382005",
+        "display": "Post exposure prophylaxis with antiviral therapy for potential sexual exposure to human immunodeficiency virus (procedure)"
+      } ]
+    } ]
+  }
+}

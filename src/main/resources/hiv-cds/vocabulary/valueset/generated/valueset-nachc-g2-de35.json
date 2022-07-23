@@ -1,0 +1,23 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-g2-de35",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g2-de35.json",
+  "name": "TAF25mgFTC200mgSuppliedCodes",
+  "title": "TAF 25mg / FTC 200mg Supplied Codes",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the TAF 25mg / FTC 200mg Supplied element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "concept": [ {
+        "code": "61958-2002",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR ALAFENAMIDE FUMARATE 25mg/1 ORAL TABLET (DESCOVY)"
+      }, {
+        "code": "70518-0230",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR ALAFENAMIDE FUMARATE 25mg/1 ORAL TABLET (DESCOVY)"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-g2-de79",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g2-de79.json",
+  "name": "TenofovirDisoproxilFumarateTDF300mgSuppliedCodes",
+  "title": "Tenofovir Disoproxil Fumarate (TDF) 300mg Supplied Codes",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Tenofovir Disoproxil Fumarate (TDF) 300mg Supplied element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "concept": [ {
+        "code": "0093-7104",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "0904-6821",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "16714-820",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "24236-284",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)"
+      }, {
+        "code": "31722-535",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "33342-096",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "42291-800",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "42385-901",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "50090-0754",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)"
+      }, {
+        "code": "50268-758",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "53808-0810",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)"
+      }, {
+        "code": "53808-1128",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "54569-5334",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)"
+      }, {
+        "code": "55154-4426",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)"
+      }, {
+        "code": "60505-4666",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED"
+      }, {
+        "code": "60687-366",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "61958-0401",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)"
+      }, {
+        "code": "64380-714",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "65862-421",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "67184-0521",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED"
+      }, {
+        "code": "69025-103",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "69076-105",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED"
+      }, {
+        "code": "69097-533",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "69189-0401",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)"
+      }, {
+        "code": "70518-0546",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, COATED (Viread)"
+      }, {
+        "code": "70518-0918",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "70518-1002",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "70518-2151",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      } ]
+    } ]
+  }
+}

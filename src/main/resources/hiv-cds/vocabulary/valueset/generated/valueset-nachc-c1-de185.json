@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-c1-de185",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-c1-de185.json",
+  "name": "SyphilisOrganismorSubstanceinLabResultsCodes",
+  "title": "Syphilis (Organism or Substance in Lab Results) Codes",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Syphilis (Organism or Substance in Lab Results) element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://snomed.info/sct",
+      "concept": [ {
+        "code": "707439008",
+        "display": "Antigen of Treponema pallidum (substance)"
+      }, {
+        "code": "708462008",
+        "display": "Deoxyribonucleic acid of Treponema pallidum (substance)"
+      }, {
+        "code": "72904005",
+        "display": "Treponema pallidum (organism)"
+      }, {
+        "code": "44106000",
+        "display": "Treponema pallidum ss. endemicum (organism)"
+      }, {
+        "code": "43454006",
+        "display": "Treponema pallidum ss. pallidum (organism)"
+      }, {
+        "code": "6246005",
+        "display": "Treponema pallidum ss. pertenue (organism)"
+      } ]
+    } ]
+  }
+}

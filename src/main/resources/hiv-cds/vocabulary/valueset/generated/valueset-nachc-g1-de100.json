@@ -1,0 +1,146 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-g1-de100",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g1-de100.json",
+  "name": "AlternativenPEPOrderCodes",
+  "title": "Alternative nPEP Order Codes",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Alternative nPEP Order element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "concept": [ {
+        "code": "664740",
+        "display": "atazanavir 300 MG"
+      }, {
+        "code": "664742",
+        "display": "atazanavir 300 MG [Reyataz]"
+      }, {
+        "code": "664741",
+        "display": "atazanavir 300 MG Oral Capsule"
+      }, {
+        "code": "664743",
+        "display": "atazanavir 300 MG Oral Capsule [Reyataz]"
+      }, {
+        "code": "1359268",
+        "display": "darunavir 800 MG"
+      }, {
+        "code": "1359270",
+        "display": "darunavir 800 MG [Prezista]"
+      }, {
+        "code": "1359269",
+        "display": "darunavir 800 MG Oral Tablet"
+      }, {
+        "code": "1359271",
+        "display": "darunavir 800 MG Oral Tablet [Prezista]"
+      }, {
+        "code": "1433869",
+        "display": "dolutegravir 50 MG"
+      }, {
+        "code": "2122522",
+        "display": "dolutegravir 50 MG / lamivudine 300 MG [Dovato]"
+      }, {
+        "code": "2122519",
+        "display": "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet"
+      }, {
+        "code": "2122526",
+        "display": "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet [Dovato]"
+      }, {
+        "code": "1433875",
+        "display": "dolutegravir 50 MG [Tivicay]"
+      }, {
+        "code": "1433873",
+        "display": "dolutegravir 50 MG Oral Tablet"
+      }, {
+        "code": "1433879",
+        "display": "dolutegravir 50 MG Oral Tablet [Tivicay]"
+      }, {
+        "code": "368309",
+        "display": "lamivudine / zidovudine Oral Tablet [Combivir]"
+      }, {
+        "code": "573017",
+        "display": "lamivudine 150 MG / zidovudine 300 MG [Combivir]"
+      }, {
+        "code": "200082",
+        "display": "lamivudine 150 MG / zidovudine 300 MG Oral Tablet"
+      }, {
+        "code": "213088",
+        "display": "lamivudine 150 MG / zidovudine 300 MG Oral Tablet [Combivir]"
+      }, {
+        "code": "350655",
+        "display": "lamivudine 300 MG"
+      }, {
+        "code": "575950",
+        "display": "lamivudine 300 MG [Epivir]"
+      }, {
+        "code": "349491",
+        "display": "lamivudine 300 MG Oral Tablet"
+      }, {
+        "code": "352230",
+        "display": "lamivudine 300 MG Oral Tablet [Epivir]"
+      }, {
+        "code": "744840",
+        "display": "raltegravir 400 MG"
+      }, {
+        "code": "744844",
+        "display": "raltegravir 400 MG [Isentress]"
+      }, {
+        "code": "744842",
+        "display": "raltegravir 400 MG Oral Tablet"
+      }, {
+        "code": "744846",
+        "display": "raltegravir 400 MG Oral Tablet [Isentress]"
+      }, {
+        "code": "317488",
+        "display": "ritonavir 100 MG"
+      }, {
+        "code": "565134",
+        "display": "ritonavir 100 MG [Norvir]"
+      }, {
+        "code": "317150",
+        "display": "ritonavir 100 MG Oral Capsule"
+      }, {
+        "code": "152970",
+        "display": "ritonavir 100 MG Oral Capsule [Norvir]"
+      }, {
+        "code": "1926066",
+        "display": "ritonavir 100 MG Oral Powder"
+      }, {
+        "code": "1926069",
+        "display": "ritonavir 100 MG Oral Powder [Norvir]"
+      }, {
+        "code": "900575",
+        "display": "ritonavir 100 MG Oral Tablet"
+      }, {
+        "code": "900577",
+        "display": "ritonavir 100 MG Oral Tablet [Norvir]"
+      }, {
+        "code": "316915",
+        "display": "zidovudine 100 MG"
+      }, {
+        "code": "566052",
+        "display": "zidovudine 100 MG [Retrovir]"
+      }, {
+        "code": "198352",
+        "display": "zidovudine 100 MG Oral Capsule"
+      }, {
+        "code": "201907",
+        "display": "zidovudine 100 MG Oral Capsule [Retrovir]"
+      }, {
+        "code": "316916",
+        "display": "zidovudine 300 MG"
+      }, {
+        "code": "565059",
+        "display": "zidovudine 300 MG [Retrovir]"
+      }, {
+        "code": "199663",
+        "display": "zidovudine 300 MG Oral Tablet"
+      }, {
+        "code": "152772",
+        "display": "zidovudine 300 MG Oral Tablet [Retrovir]"
+      } ]
+    } ]
+  }
+}

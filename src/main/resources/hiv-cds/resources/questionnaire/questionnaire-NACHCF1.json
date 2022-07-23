@@ -1,0 +1,62 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "NACHCF1",
+  "extension": [ {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "shareable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "computable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode": "publishable"
+  }, {
+    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
+    "valueCode": "structured"
+  } ],
+  "url": "http://fhir.org/guides/nachc/hiv-cds/Questionnaire/NACHCF1",
+  "name": "NACHCF1",
+  "title": "NACHC.F1 Injection Drug Use",
+  "status": "active",
+  "experimental": false,
+  "description": "TODO: description goes here",
+  "useContext": [ {
+    "code": {
+      "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+      "code": "task",
+      "display": "Workflow Task"
+    },
+    "valueCodeableConcept": {
+      "coding": [ {
+        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/activity-codes",
+        "code": "NACHC.F1",
+        "display": "Injection Drug Use"
+      } ]
+    }
+  } ],
+  "item": [ {
+    "linkId": "1",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/drug-rehabilitation#Procedure.code",
+    "text": "Concepts related to Injection Drug Use Rehabiliation",
+    "type": "choice",
+    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f1-de2.json"
+  }, {
+    "linkId": "2",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/injection-findings#Observation.code",
+    "text": "Concepts related to findings or observations related to Injection Drug Usage",
+    "type": "choice",
+    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f1-de13.json"
+  }, {
+    "linkId": "3",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/injection-drug-use-diagnosis#Condition.code",
+    "text": "Concepts Associated with Injection Drug Use Diagnosis",
+    "type": "choice",
+    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f1-de16.json"
+  }, {
+    "linkId": "4",
+    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/injection-drug-use#MedicationStatement.medication[x]",
+    "text": "Concepts related to Injection Drug Use History",
+    "type": "choice",
+    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f1-de201.json"
+  } ]
+}

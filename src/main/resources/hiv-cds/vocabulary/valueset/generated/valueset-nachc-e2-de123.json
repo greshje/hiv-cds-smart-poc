@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-e2-de123",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-e2-de123.json",
+  "name": "ChlamydiaTrachomatisTestsFPARCodes",
+  "title": "Chlamydia Trachomatis Tests, FPAR Codes",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Chlamydia Trachomatis Tests, FPAR element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://loinc.org",
+      "concept": [ {
+        "code": "35729-3",
+        "display": "Chlamydia sp DNA [Presence] in Unspecified specimen by NAA with probe detection"
+      } ]
+    } ]
+  }
+}

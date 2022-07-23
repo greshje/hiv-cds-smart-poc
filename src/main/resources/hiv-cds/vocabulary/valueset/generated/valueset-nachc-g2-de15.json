@@ -1,0 +1,26 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-g2-de15",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g2-de15.json",
+  "name": "TDF300mgFTC200mgOrderCodes",
+  "title": "TDF 300mg / FTC 200mg Order Codes",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the TDF 300mg / FTC 200mg Order element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "concept": [ {
+        "code": "476556",
+        "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet"
+      }, {
+        "code": "639887",
+        "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG [Truvada]"
+      }, {
+        "code": "639888",
+        "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Truvada]"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nachc-g2-de37",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g2-de37.json",
+  "name": "TDF300mgFTC200mgSuppliedCodes",
+  "title": "TDF 300mg / FTC 200mg Supplied Codes",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the TDF 300mg / FTC 200mg Supplied element",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://hl7.org/fhir/sid/ndc",
+      "concept": [ {
+        "code": "0093-7607",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "0093-7704",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "0378-1930",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "33342-106",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "35356-070",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "42291-439",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "42385-913",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "42385-953",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "42543-719",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "50090-0870",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "51407-112",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "52959-969",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "53808-0805",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "54569-5588",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "54868-5141",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "55154-0082",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET (TRUVADA)"
+      }, {
+        "code": "55154-4425",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (TRUVADA)"
+      }, {
+        "code": "58118-0100",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "60219-2095",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "60505-4202",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "61786-596",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "61919-669",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (TRUVADA)"
+      }, {
+        "code": "61958-0701",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "63629-7581",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "64380-719",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET"
+      }, {
+        "code": "65862-354",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "67296-1237",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "67296-1433",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "68071-2112",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "68180-287",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "69097-209",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "69189-0701",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "69238-1527",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "69238-2095",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "70518-0097",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED (Truvada)"
+      }, {
+        "code": "70518-3077",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "70710-1367",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "70771-1594",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "72189-156",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "72189-227",
+        "display": "TENOFOVIR DISOPROXIL FUMARATE 300mg/1 EMTRICITABINE 200mg/1 ORAL TABLET, FILM COATED"
+      }, {
+        "code": "76282-677",
+        "display": "EMTRICITABINE 200mg/1 TENOFOVIR DISOPROXIL FUMARATE 300mg/1 ORAL TABLET, FILM COATED"
+      } ]
+    } ]
+  }
+}
