@@ -21,7 +21,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class PopulatePickList {
 
-	public static void exec(String src) {
+	public static String exec(String src) {
 		Questionnaire quest = FhirR4JsonParser.parse(src, Questionnaire.class);
 		List<QuestionnaireItemComponent> items = quest.getItem();
 		log.info("Got questionnaire: " + quest.getName());
@@ -30,7 +30,7 @@ public class PopulatePickList {
 		}
 		log.info("Done with questionaire:");
 		String rtn = FhirR4JsonParser.toJson(quest);
-		log.info("\n---------------------------\n" + rtn + "\n---------------------------\n");
+		return rtn;
 	}
 
 	private static void replaceAnswerValueSet(QuestionnaireItemComponent item) {

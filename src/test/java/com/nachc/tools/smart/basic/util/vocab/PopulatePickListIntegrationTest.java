@@ -1,7 +1,5 @@
 package com.nachc.tools.smart.basic.util.vocab;
 
-import java.io.InputStream;
-
 import org.junit.Test;
 
 import com.nach.core.util.file.FileUtil;
@@ -17,10 +15,9 @@ public class PopulatePickListIntegrationTest {
 	public void shouldDoReplacements() {
 		log.info("Starting test...");
 		String quest = FileUtil.getAsString(QUEST);
-		PopulatePickList.exec(quest);
+		String rtn = PopulatePickList.exec(quest);
+		log.info("\n---------------------------\n" + rtn + "\n---------------------------\n");
 		log.info("Done.");
 	}
 
 }
-
-
